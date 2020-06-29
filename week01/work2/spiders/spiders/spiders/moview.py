@@ -1,5 +1,6 @@
-from spiders.items import SpidersItem
 import scrapy
+
+from spiders.items import SpidersItem
 
 class MoviewSpider(scrapy.Spider):
     name = 'moview'
